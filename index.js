@@ -538,6 +538,9 @@ function print_map(map) {
 
 // better ignore this part; broken assets turn map display into a mess with a ton of exceptions
 function display_map(map) {
+    for (let i = 0; i < map_size**2; i++) {
+        map[i] = {type: 'ocean', above: null, road: false, tribe: fill ? fill : 'Xin-xi'}; // tribes don't matter so far
+    }
     let graphic_display = document.getElementById("graphic_display");
     graphic_display.width = graphic_display.width + 0;
     let canvas = graphic_display.getContext("2d");
