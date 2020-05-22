@@ -1,119 +1,303 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
 
-<head>
-    <link rel="icon" href="assets/Imperius/Imperius ground.png" type="image/png" />
-    <link rel="apple-touch-icon" href="assets/Imperius/Imperius ground.png" type="image/png" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <meta charset="UTF-8" />
-    <meta name="description" content="Welcome to the unofficial Polytopia map generator! Generate maps of whatever sizes and properties." />
-    <meta name="author" content="QuasiStellar" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	    <meta name="description" content="Crunchy Games StarBreak">
+	    <meta name="author" content="">
 
-    <meta property="og:url" content="https://quasistellar.github.io/PolytopiaMapGenerator/" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Polytopia Map Generator" />
-    <meta property="og:description" content="Welcome to the unofficial Polytopia map generator! Generate maps of whatever sizes and properties." />
-    <meta property="og:image" content=https://quasistellar.github.io/PolytopiaMapGenerator/assets/logo.png" />
+		<title>Home - Crunchy Games </title> 
+		<link rel="shortcut icon" href="http://www.crunchy.com/favicon.ico" type="image/vnd.microsoft.icon"> 
 
-    <title>Polytopia Map Generator</title>
+		<!-- Library -->
+	    <link href="assets/css/lib.css" rel="stylesheet">    
+		
+		<!-- Custom CSS --> 
+		<link href="assets/css/elements.css" rel="stylesheet">  
 
-    <script type="text/javascript" src="index.js"></script>
+		<!--[if lt IE 9]>
+			<script src="js/html5/respond.min.js"></script>
+	    <![endif]-->
+		
+	</head>
 
-    <style>
-        @font-face {
-            font-family: 'Josefin Sans';
-            src: local('Josefin Sans'), url('assets/josefin-sans.ttf') format('truetype');
-            font-weight: 400;
-            font-style: normal;
-        }
-        * {
-            font-family: "Josefin Sans", serif;
-            color: white;
-        }
-        body {
-            background-size: 50%;
-            background: black url('assets/sky.png') repeat fixed;
-            margin: 0;
-        }
-        button {
-            background-color: black;
-        }
-        .txt_field {
-            background-color: black;
-        }
-        @media screen and (min-width: 1200px) {
-            .parent {
-                width: 100%;
-                height: 100%;
-                position: fixed;
-                top: 0;
-                left: 200px;
-                display: flex;
-                align-items: center;
-                align-content: center;
-                justify-content: center;
-                overflow: auto;
-            }
-        }
-    </style>
+	<body id='top'> 	  
+		<!-- Header Section -->
+		<header class="header_wrap">    
+					<!-- Navigation -->
+					<nav class="navbar" id="mainNav">
+						<!-- Container -->
+						<div class="container">
+							<div class="navbar-container">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+										<span class="sr-only">Toggle navigation</span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+									</button> 
+									<a class="navbar-brand js-scroll-trigger wow flash" href="index.html"><img src="assets/images/logo/logo.png" alt=''></a>
+								</div>
+								<div id="navbar" class="navbar-collapse collapse">
+									<ul class="nav navbar-nav">
+										<li class='active'><a href="#about" class='js-scroll-trigger bounceInRight wow' title="About" data-wow-delay="50ms">About</a></li>
+										<li><a href="#gallery" class='js-scroll-trigger bounceInRight wow'  title="Gallery" data-wow-delay="100ms">Gallery</a></li> 
+										<li><a href="#trailer" class='js-scroll-trigger bounceInRight wow'  title="Trailer" data-wow-delay="150ms">Trailer</a></li> 
+										<li><a href="#quotes" class='js-scroll-trigger bounceInRight wow'  title="Quotes" data-wow-delay="200ms">Quotes</a></li> 
+										<li><a href="#faqs" class='js-scroll-trigger bounceInRight wow'  title="Faqs" data-wow-delay="250ms">Faqs</a></li>  
+										<li><a href="blog.html" class='bounceInRight wow'  title="Blog" data-wow-delay="300ms">Blog</a></li>         
+									</ul>
+								</div> 
+							</div>	
+						</div><!-- Container /- --> 
+					</nav><!-- Navigation /- --> 
 
-</head>
+					   	
+		</header><!-- Header Section /- -->
+		
+		<!--Main Content --> 
+		<div class="main-container"> 
+			<main class="site-main">
 
-<body onload="onload()">
+				<div class="clearfix"></div>
 
-    <noscript>
-        <h2>Polytopia Map Generator</h2>
-        <i>(by <a href="mailto:quasistellar.official@gmail.com" target="_top">QuasiStellar</a>)</i>
-        <p>Javascript is required to use the generator!</p>
-        <p>If you are worried about potential security issues, you can always review the code at the project's <a href="https://github.com/QuasiStellar/PolytopiaMapGenerator">GitHub repository</a>.</p>
-    </noscript>
+				<!-- ABOUT CONTENT -->
+				<div id="about" class="about-section section-container">
+					<!-- Container -->
+					<div class="container">  
+ 						<div class="col-xs-12 col-md-9">
+ 							<p class='about-parag bounceInLeft wow'>
+ 								StarBreak is a unique skill-based action platformer MMO where you explore strange sci-fi worlds alongside dozens of other players, kill legions of dangerous aliens and fight epic boss battles. 
+ 							</p>
+ 						</div>
+					</div><!-- Container /- -->
+				</div><!-- ABOUT CONTENT /- -->
+				<div class="clearfix"></div> 
+				<!-- TRAILER CONTENT -->
+				<div id="trailer" class="trailer-section section-container">
+					<!-- Container -->
+					<div class="container">  
+ 						<div class="col-xs-12 trailer-wrap fadeIn wow">
+ 							<img src="assets/images/video/video_bg.png" class='img-responsive fadeIn wow'>
+ 							<a class="play-btn_link rotateIn wow" href="https://www.youtube.com/watch?v=I-X7UlBoanU" data-wow-delay="40ms"> <img src="assets/images/icons/play_button.png" class='play-btn'> </a>
+ 						</div>
+					</div><!-- Container /- -->
+				</div><!-- TRAILER CONTENT /- -->
+				<div class="clearfix"></div> 
+				<!-- TRAILER CONTENT -->
+				<div id="trailer" class="play-section section-container">
+					<!-- Container -->
+					<div class="container">  
+ 						<div class="col-xs-12 play-wrap">
+ 							<h1 class="play-header bounceInUp wow">Play starbreak now </h1>
+ 							<div class="col-xs-12">
+ 								<div class="col-xs-6 btn-play-web bounceInLeft wow"><a href="https://www.starbreak.com/"> <img src="assets/images/icons/web_btn.png" onmouseover="this.src='assets/images/icons/web_btn_hover.png';" onmouseout="this.src='assets/images/icons/web_btn.png';"></a> </div>
+ 								<div class="col-xs-6 btn-play-stram bounceInRight wow"> <a href="http://store.steampowered.com/app/420790/StarBreak/"><img src="assets/images/icons/stream_btn.png"  onmouseover="this.src='assets/images/icons/stream_btn_hover.png';" onmouseout="this.src='assets/images/icons/stream_btn.png';"></a> </div>
+ 							</div>
+ 						</div>
+					</div><!-- Container /- -->
+				</div><!-- TRAILER CONTENT /- --> 
+				<div class="clearfix"></div> 
+				<!-- GALLERY CONTENT -->
+				<div id="gallery" class="gallery-section section-container">
+					<!-- Container -->
+					<div class="container">  
+ 						<div class="col-xs-12 gallery-wrap">
+ 							 <div class="owl-carousel owl-theme gallery-carousel">
+					            <div class="item">
+					              <a href="assets/images/gallery/PrettyPhoto/cave1.png"  data-lightbox="example-set"><img src="assets/images/gallery/cave1.png"></a>
+					            </div>
+					            <div class="item">
+					              <a href="assets/images/gallery/PrettyPhoto/forest1.png"  data-lightbox="example-set"><img src="assets/images/gallery/forest1.png"></a>
+					            </div>
+					            <div class="item">
+					              <a href="assets/images/gallery/PrettyPhoto/graveyard1.png"  data-lightbox="example-set"><img src="assets/images/gallery/graveyard1.png"></a>
+					            </div>
+					            <div class="item">
+					              <a href="assets/images/gallery/PrettyPhoto/home1.png"  data-lightbox="example-set"><img src="assets/images/gallery/home1.png"></a>
+					            </div>
+					            <div class="item">
+					              <a href="assets/images/gallery/PrettyPhoto/lobby1.png"  data-lightbox="example-set"><img src="assets/images/gallery/lobby1.png"></a>
+					            </div>
+					            <div class="item">
+					              <a href="assets/images/gallery/PrettyPhoto/strands1.png"  data-lightbox="example-set"><img src="assets/images/gallery/strands1.png"></a>
+					            </div>
+					            <div class="item">
+					              <a href="assets/images/gallery/PrettyPhoto/temple1.png"  data-lightbox="example-set"><img src="assets/images/gallery/temple1.png"></a>
+					            </div>
+					            <div class="item">
+					              <a href="assets/images/gallery/PrettyPhoto/undergroundbase1.png"  data-lightbox="example-set"><img src="assets/images/gallery/undergroundbase1.png"></a>
+					            </div>
+					            <div class="item">
+					              <a href="assets/images/gallery/PrettyPhoto/vanquished1.png"  data-lightbox="example-set"><img src="assets/images/gallery/vanquished1.png"></a>
+					            </div>  
+					          </div>
+ 						</div>
+					</div><!-- Container /- -->
+				</div><!-- GALLERY CONTENT /- --> 
+				<div class="clearfix"></div>  
+				<!-- QUOTES CONTENT -->
+				<div id="quotes" class="quotes-section section-container">
+					<!-- Container -->
+					<div class="container">  
+ 						<div class="col-xs-12 quotes-wrap">
+ 							<div class="col-xs-12 bounceInUp wow">
+	 							 <div class="owl-carousel owl-theme quote-carousel">
+						            <div class="item">
+						            	<div>
+						            		<a href="https://steamed.kotaku.com/free-sidescrolling-permadeath-mmo-is-surprisingly-fun-1776302226"><img src="assets/images/quote/Kotaku_logo.png" width='230' class="quote_img quote_img_steamed"></a>
+						              		<p class='quote-parag'>“Free Sidescrolling Permadeath MMO Is Surprisingly Fun”</p>
+						              		<span class="quote-name">- Nathan Grayson, <a href="http://steamed.kotaku.com/free-sidescrolling-permadeath-mmo-is-surprisingly-fun-1776302226">Kotaku</a> -</span>
+						            	</div> 
+						            </div>
+						            <div class="item">
+						            	<div>
+						            		<a href="http://gametyrant.com/news/starbreak-metroidvania-style-mmo-coming-to-steam"><img src="assets/images/quote/ALPHA-BETA-GAMER-LOGO.png" class="quote_img"></a>
+						              		<p class='quote-parag'>“StarBreak impresses with it’s luscious visuals, engaging combat and huge selection of loot.”</p>
+						              		<span class="quote-name">- Calum Fraser, <a href="http://www.alphabetagamer.com/starbreak-open-beta/">Alpha Beta Gamer</a> -</span>
+						            	</div> 
+						            </div>
+						            <div class="item">
+						            	<div>
+						            		<a href="https://www.alphabetagamer.com/starbreak-open-beta/"><img src="assets/images/quote/gametyrant-logo.png" class="quote_img"></a>
+						              		<p class='quote-parag'>“I must say, it is rather addicting.”</p>
+						              		<span class="quote-name">- Jake Smith, <a href="http://gametyrant.com/news/starbreak-metroidvania-style-mmo-coming-to-steam">Game Tyrant</a> -</span>
+						            	</div> 
+						            </div> 
+						         </div> 
+ 							</div> 
+ 						</div>
+					</div><!-- Container /- -->
+				</div><!-- QUOTES CONTENT /- --> 
+				<div class="clearfix"></div> 
+				<!-- FAQS CONTENT -->
+				<div id="faqs" class="faqs-section section-container">
+					<!-- Container -->
+					<div class="container">  
+ 						<div class="col-xs-12 faqs-wrap">
+ 							<div class="col-xs-12">   
+ 								 <img class="btn-faqs flipInX wow" src='assets/images/icons/faqs_btn.png' data-toggle="modal" data-target="#faqsModal"  onmouseover="this.src='assets/images/icons/faqs_btn_hover.png';" onmouseout="this.src='assets/images/icons/faqs_btn.png';"> 
+ 							</div> 
+ 						</div>
+					</div><!-- Container /- -->
+				</div><!-- FAQS CONTENT /- --> 
+				<div class="clearfix"></div>  
 
-    <div id="main">
+			</main> 
+		</div> <!--Main Content /- --> 
+		
+		<div class="clearfix"></div>
 
-        <div class="parent">
-            <div class="block">
-                <canvas id="graphic_display" width="1000" height="700"></canvas>
-            </div>
-        </div>
+		<!-- Footer Main -->
+		<footer id="footer-main" class="footer-main"> 
+			<!-- Container -->
+			<div class="container">
+				<!-- Row / Newsletter Form -->
+				<div class="row">
+					<div class="social-media">
+				 		<a href="http://reddit.com/r/starbreak"><img src="assets/images/icons/reddit.png"  class='bounceInLeft wow'></a> 
+						<a href="https://twitter.com/CrunchyGames"><img src="assets/images/icons/twitter.png"  class='bounceInDown wow'></a>
+				 		<a href="https://www.facebook.com/CrunchyGames"><img src="assets/images/icons/facebook.png"  class='bounceInUp wow'></a>
+						<a href="https://www.youtube.com/channel/UCj7Kyfg1oLFIC-YbN-mXjsA"><img src="assets/images/icons/youtube.png"  class='bounceInDown wow'></a>
+						<a href="mailto:support@crunchy.com"><img src="assets/images/icons/email.png"  class='bounceInRight wow'></a> 
+					</div>
+				</div><!-- Row / Newsletter Form  /- -->
+				<!-- Row / Contact Form --> 
+			</div><!-- Container /- --> 
+		</footer><!-- Footer Main /- -->
+		
 
-        <button type="button" onclick="generate()">Generate!</button>
+		<!-- Modal Faqs -->
+		<div class="modal zoomIn animated" id="faqsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content">
+		      <div class="modal-header"> 
+		      	<h1>Frequently Asked Questions</h1>
+		        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button> -->
+		      </div>
+		      <div class="modal-body">
+		        <span>What is StarBreak?</span>
+            <p>StarBreak is a co-operative action combat platformer MMO with perma-death and procedurally generated content.</p>
 
-        <h2>Polytopia Map Generator</h2>
-        <span style="display: inline-block"><i>(by <a href="mailto:quasistellar.official@gmail.com" target="_top">QuasiStellar</a>)</i></span>
+            <span>I keep getting a "Connection Error" when trying to play StarBreak, help?</span>
+            <p>This problem is likely a function of your anti-virus program or firewall blocking the socket connection that used by StarBreak. The web version of the game requires access to port 443 and the Steam version requires access to port 2048.</p>
 
-        <p id="warning" style="display: none">Warning.</p>
+            <span>I lost all my gear and character progress when I died.  What gives?</span>
+            <p>Yes. All character progress and gear is lost when the character dies. However, progress is also much faster than in a traditional MMO and a skilled player will be able to recover from a death much more quickly. And, as with any skill-based game, the more you play, the better you'll get. You'll be surprised how much more successful you will be after a few deaths and the understanding that comes with those deaths.</p>
 
-        <p>Map size:</p>
-        <label for="map_size"></label><input type="number" id="map_size" class="txt_field" value="18" min="5" step="1" required>
+            <span>Can I sell or trade equipment?</span>
+            <p>No. This is a design decision to keep the focus on the action and reduce the spamming and scamming that accompanies trading.</p>
 
-        <p>Initial land:</p>
-        <label for="initial_land"></label><input type="range" id="initial_land" value="0.5" min="0" max="1" step="0.01" required>
-        <p>Smoothing:</p>
-        <label for="smoothing"></label><input type="range" id="smoothing" value="3" min="0" max="4" step="1" required>
-        <p>Relief:</p>
-        <label for="relief"></label><input type="range" id="relief" value="4" min="2" max="6" step="1" required>
-        <p>Tribes:</p>
-        <label for="tribes"></label><input type="text" id="tribes" class="txt_field" value="Xin-xi Imperius" required>
-        <p>Text output:</p>
-        <label for="text_output_check"></label><input type="checkbox" id="text_output_check">
-        <p>Don't generate biomes:</p>
-        <label for="no_biomes_check"></label><input type="checkbox" id="no_biomes_check">
-        <p>Don't generate resources:</p>
-        <label for="no_resources_check"></label><input type="checkbox" id="no_resources_check">
-        <p>Fill with (10 times faster):</p>
-        <label for="fill"></label><input type="text" id="fill" class="txt_field" value="">
+            <span>Why should I register?</span>
+				    <p> While registration is never required to play StarBreak, as an unregistered user (called a "New Spark") you are not able to use in-game chat features, emotes, mark friends, join a faction, log in from different computers or choose a username. Also, if an unregistered player clears their browser local storage, they will permanently lose access to their account! Registration is quick and painless, so if you like the game, we highly recommend that you register!</p>
 
-        <p id="text_display" style="display: none">None</p>
+            <span>If I register after playing, will I lose my unregistered account progress?</span>
+    				<p> No! Your unregistered character will seamlessly transition to a registered character gaining all of the advantages of registration and protecting you from accidentally loosing your account. There really are no downsides, so if you like the game, register!</p>
 
-        <p><button type="button" onclick="switch_page('faq')">FAQ</button>
-    </div>
+            <span>If I used a fake email address or no longer have access to the email account used when registering, can you change it for me?</span>
+            <p>No! Access to the email address determines ownership of the account.  We have no way to prove ownership if you can't use the underlying email account.</p>
 
-    <div id="faq" style="display: none">
-        <h2>Frequently Asked Questions</h2>
+    				<span>Can I remap keys? </span>
+		    		<p>Yes. Key remapping can be accessed from the options menu.</p>
 
-        <p><button type="button" onclick="switch_page('main')">Generator</button>
-    </div>
-</body>
+    				<span>Can I use a gamepad? </span>
+    				<p> Yes! Native gamepad support is in the game. We have tested it with PlayStation and Xbox controllers. For controllers that don't work, mapping a controller's buttons to keyboard keys using third-party software works well.</p>
 
+				    <span>Can I use the touch screen on my mobile device? </span>
+				    <p>No. This game is designed to be played using a keyboard or gamepad.</p>
+
+            <span>What commands are there in chat?</span>
+            <p>Use the command "/help" for a list of all chat commands.</p>
+
+            <span>Can I play with specific people?</span>
+            <p>Yes, we recommend you mark them as friends using the "/friend" command so they are easy to find and communicate with.</p>
+
+    				<span>Can I create or post videos or other media about StarBreak?</span>
+    				<p>Yes! You can create and share videos or photos of StarBreak, so long as you are not directly charging money for these creations (ad and click-trough revenue from sites like YouTube is fine). You may not provide music or sound effects unless it is included with the video footage or photo montage. See the Terms of Use for details.</p>
+
+            <span>Does StarBreak cost money?</span>
+            <p>No!  The game is completely free.</p>
+
+            <span>My character died in a really unfair way (e.g. lag, hacked, etc.), can you resurrect it?</span>
+            <p>No.  We never resurrect characters under <b>ANY</b> circumstances.  If we opened that door it would be impossible to fairly adjudicate who is deserving of a resurrection and who isn't.  Similarly we will never recreate lost gear, etc.</p>
+
+            <span>What is the status of StarBreak?</span>
+            <p>Active development of StarBreak is done and no further major content or features are planned.  Minor features and fixes will be released occasionally.</p>
+
+            <span>Where can I discuss StarBreak?</span>
+            <p>The StarBreak subreddit is a good place to start: <a href="https://reddit.com/r/starbreak">reddit.com/r/starbreak</a></p>
+
+            <span>I like StarBreak, will you be making more games.</span>
+            <p>Yes!  New game is in the works.  To stay updated subscribe to our <a href="https://twitter.com/CrunchyGames">Twitter</a> or <a href="https://www.facebook.com/CrunchyGames">Facebook</a></p>
+
+            <span>I have a problem not covered here, can you help?</span>
+            <p>Maybe, send an email to support@crunchy.com</p>
+		      </div>
+		    </div>
+		  </div>
+		</div><!-- Modal Faqs /- -->
+
+		<img src="assets/images/background-images/footer_base.png" class='footer-img img-responsive flash wow'>
+
+		<a href="#top" class='top_btn js-scroll-trigger'><img src="assets/images/icons/top_btn.png"></a>
+
+		<!-- JQuery v1.12.4 -->
+		<script src="assets/js/jquery-1.12.4.min.js"></script> 
+		<!-- Library - Libs Js -->
+		<script src="assets/js/lib.js"></script> 
+		<!-- Library - Theme Custom JS -->
+		<script src="assets/js/functions.js"></script>
+		 
+	</body>
+	
 </html>
